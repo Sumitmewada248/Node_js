@@ -17,7 +17,7 @@ fs.appendFile("my.pdf","hello we are mern student",(err)=>{
 
 } )
 
-fs.appendFile("our.txt","hello we are mern student",(err)=>{
+fs.appendFile("our.txt","hello we are mern student. In our class plz join us ",(err)=>{
     if (err)throw err;
     console.log("File Sussesfully creater!!!");
 
