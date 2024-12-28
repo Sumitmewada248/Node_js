@@ -5,4 +5,5 @@ route.get("/stuinfo",(req, res)=>{
     res.send("This is the Student Information")
 })
 
+
 module.exports=route;
